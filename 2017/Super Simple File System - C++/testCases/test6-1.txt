@@ -1,0 +1,4 @@
+CREATE test
+IMPORT test testCases/small
+CAT test
+SHUTDOWN

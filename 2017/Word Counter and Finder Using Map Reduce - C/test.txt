@@ -1,0 +1,3 @@
+This is a short test because apparently my mapreduce function is weak.
+And it can't handle the text of Alice without breaking.
+This is ridiculous.

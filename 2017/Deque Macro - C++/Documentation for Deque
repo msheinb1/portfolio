@@ -1,0 +1,69 @@
+struct Deque_##t##_Iterator: Constructor for the iterator of the deque.
+aDeq is the deque the iterator is associated with.
+
+struct Deque_##t: Constructor for the deque.
+sizeMax is the current max size of the deque.
+sizeFac determines how much larger the deque grows when it needs to increase.
+arr is the array holding the data in the deque.
+
+Deque_##t##_Iterator * it > Whenever this appears as a parameter, it is the iterator that you want to perform the function on.
+Deque_##t * deq > Whenever this appears as a parameter, it is the deque that you want to perform the function on.
+
+void inc(Deque_##t##_Iterator * it): Increments the iterator forward, loops back around if at the end.
+
+void dec(Deque_##t##_Iterator * it): Decrements the iterator forward, loops back around if at the beginning.
+
+t & deref(Deque_##t##_Iterator * it): Gets the value of whatever the iterator is currently pointing to.
+
+int size(Deque_##t * deq): Gets the number of data values currently in the deque.
+
+bool empty(Deque_##t * deq): Returns true if the deque is empty.
+
+void increaseSize(Deque_##t * deq): Increases the size of the deque by a factor of sizeFac.
+sizeFac increases by 2 each time increaseSize is called.
+
+void push_back(Deque_##t * deq, t temp): Adds something to the back of the deque.
+increaseSize function is called if more space is needed.
+
+void push_front(Deque_##t * deq, t temp): Adds something to the front of the deque.
+increaseSize function is called if more space is needed.
+
+t & front(Deque_##t * deq): Gets the value at the front of the deque.
+
+t & back(Deque_##t * deq): Gets the value at the back of the deque.
+
+t & at(Deque_##t * deq, int i): Gets the value at the i-th index of the deque.
+
+void pop_front(Deque_##t * deq): Removes the value at the front of the deque.
+
+void pop_back(Deque_##t * deq): Removes the value at the back of the deque.
+
+Deque_##t##_Iterator begin(Deque_##t * deq): Creates and returns an iterator pointing to the beginning of the deque.
+
+Deque_##t##_Iterator end(Deque_##t * deq): Creates and returns an iterator pointing to the end of the deque.
+
+void clear(Deque_##t * deq): Clears the deque.
+Size is retained, and the data in the deque is not cleared. However, it will be overwritten as new data is added.
+However, this is not optimal as though according to the deque, the size is 0, the true space of the array is whatever the previous size was.
+This means that the size of the array will increase according to the value of sizeMax and not the true size of the array.
+
+void dtor(Deque_##t * deq): Deconstructs the deque and frees resources.
+
+bool Deque_##t##_Iterator_equal(Deque_##t##_Iterator it, Deque_##t##_Iterator val): Checks to see if two deque iterators are pointing to the same index.
+Assumes that the deques are of the same type and pointing to the same deque.
+
+bool Deque_##t##_equal(Deque_##t deq1, Deque_##t deq2): Checks to see if two deques have the same values at the same indices.
+Assumes that the compare function supplied to the deque returns true if the values passed into the compare function are unequal.
+
+int intCompare_##t(const void * o1, const void  * o2, void * deq): Compares two values using the deque's compare function.
+Assumes the compare function returns true if o1 is less than o2.
+The two values do not need to be part of the deque, but must be the same type as the values in the deque.
+Returns -1 if o1 is less than o2, returns 0 if they're equal, and returns 1 if o1 is greater than o2.
+
+void sort(Deque_##t * deq, Deque_##t##_Iterator begin, Deque_##t##_Iterator end): Uses qsort to sort the deque.
+
+void Deque_##t##_ctor(Deque_##t * deq, bool (*f)(const t&, const t&)): Constructor for the deque.
+f is a function pointer that takes in two constants of type t.
+
+
+

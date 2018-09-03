@@ -1,0 +1,6 @@
+LIST
+CAT test
+CAT test3
+CAT test4
+CAT test5
+SHUTDOWN

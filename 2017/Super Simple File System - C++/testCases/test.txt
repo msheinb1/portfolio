@@ -1,0 +1,15 @@
+LIST
+CREATE test
+CREATE test2
+CREATE test3
+CREATE test4
+LIST
+DELETE test2
+LIST
+IMPORT test testCases/small
+CAT test
+IMPORT test3 testCases/medium
+CAT test3
+IMPORT test4 testCases/large
+CAT test4
+SHUTDOWN

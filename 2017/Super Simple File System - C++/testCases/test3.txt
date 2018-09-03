@@ -1,0 +1,3 @@
+IMPORT test5 testCases/xl
+CAT test5
+SHUTDOWN

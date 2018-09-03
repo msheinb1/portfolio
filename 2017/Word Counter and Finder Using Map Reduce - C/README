@@ -1,0 +1,14 @@
+Program Staus: Complete
+M. Sheinbaum
+Completed Fall 2017
+
+Project Description: Word Counter + Finder.
+Uses MapReduce in order to split an input file into a specified number of files, perform a tast on those
+intermediate files, and condense the result into a single output file.
+The "counter" command counts the number of letters in the file, and puts it to the output file.
+The "finder" command searches every line for an instance of a specified word, and prints each
+line with that word it finds to the output file.
+
+Skills used: MapReduce, Signals, Inter process communication, File I/O
+
+Comments: For this program, a test file, and header files were provided, code was supposed to be written that adhered to those files. The word finder only works for files with up to 100 characters before each new line.

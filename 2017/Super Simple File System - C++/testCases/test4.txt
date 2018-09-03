@@ -1,0 +1,4 @@
+IMPORT test testCases/tooBig
+LIST
+CAT test
+SHUTDOWN

@@ -1,0 +1,48 @@
+Optimum
+tiny[0] = 0; //Miss - Cache: 0
+tiny[1] = 1; //Miss - Cache: 0 1
+tiny[2] = 2; //Miss - Cache: 0 1 2
+tiny[3] = 0; //Hit
+tiny[4] = 3; //Miss - Cache: 0 1 3
+tiny[5] = 1; //Hit
+tiny[6] = 1; //Hit
+tiny[7] = 0; //Hit
+tiny[8] = 3; //Hit
+tiny[9] = 2; //Miss - Cache: 0 1 2
+
+LRU:
+tiny[0] = 0; //Miss - Cache: >0
+tiny[1] = 1; //Miss - Cache: >0 1
+tiny[2] = 2; //Miss - Cache: >0 1 2
+tiny[3] = 0; //Hit  - Cache: 0 >1 2
+tiny[4] = 3; //Miss - Cache: 0 3 >2
+tiny[5] = 1; //Miss - Cache: >0 3 1
+tiny[6] = 1; //Hit  - Cache: >0 3 1
+tiny[7] = 0; //Hit  - Cache: 0 >3 1
+tiny[8] = 3; //Hit  - Cache: 0 3 >1
+tiny[9] = 2; //Miss - Cache: >0 3 2
+
+FIFO:
+tiny[0] = 0; //Miss - Cache: >0
+tiny[1] = 1; //Miss - Cache: >0 1
+tiny[2] = 2; //Miss - Cache: >0 1 2
+tiny[3] = 0; //Hit  - Cache: >0 1 2
+tiny[4] = 3; //Miss - Cache: 3 >1 2
+tiny[5] = 1; //Hit  - Cache: 3 >1 2
+tiny[6] = 1; //Hit  - Cache: 3 >1 2
+tiny[7] = 0; //Miss - Cache: 3 0 >2
+tiny[8] = 3; //Hit  - Cache: 3 0 >2
+tiny[9] = 2; //Hit  - Cache: 3 0 >2
+
+Clock
+int tiny[10];
+tiny[0] = 0; //Miss - Cache: 0		Clock: >0 0 0
+tiny[1] = 1; //Miss - Cache: 0 1	Clock: >0 0 0
+tiny[2] = 2; //Miss - Cache: 0 1 2	Clock: >0 0 0
+tiny[3] = 0; //Hit			Clock: >1 0 0
+tiny[4] = 3; //Miss - Cache: 0 3 2	Clock: 0 >0 0
+tiny[5] = 1; //Miss - Cache: 0 1 2	Clock: 0 >0 0
+tiny[6] = 1; //Hit			Clock: 0 >1 0
+tiny[7] = 0; //Hit			Clock: 1 >1 0
+tiny[8] = 3; //Miss - Cache: 0 1 3	Clock: 1 0 >0
+tiny[9] = 2; //Miss - Cache: 0 1 2	Clock: 1 0 >0

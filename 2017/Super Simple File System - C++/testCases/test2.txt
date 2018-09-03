@@ -1,0 +1,11 @@
+LIST
+CAT test
+CAT test3
+CAT test4
+READ test 12 38
+READ test3 98 150
+WRITE test a 12 19
+READ test 10 50
+WRITE test3 t 424 150
+READ test3 420 200
+SHUTDOWN
