@@ -1,0 +1,38 @@
+2022-09-05 21:49:58,202 - INFO - Program Started
+2022-09-05 21:49:59,660 - INFO - Directory to search is set to: C:\Users\kirby\Documents\Computer Science\Smoothstack\Week 1 Evaluation Assignment
+2022-09-05 21:50:00,342 - INFO - Added 3 files to processing queue.
+2022-09-05 21:50:00,342 - INFO - Added 8 files to error queue.
+2022-09-05 21:50:00,342 - INFO - Moved 1 files from processing queue to error queue.
+2022-09-05 21:50:00,342 - INFO - Removed 6 non .xlsx files from error queue.
+2022-09-05 21:50:26,025 - INFO - Program Started
+2022-09-05 21:50:33,380 - INFO - Directory to search is set to: C:\Users\kirby\Documents\Computer Science\Smoothstack\Week 1 Evaluation Assignment
+2022-09-05 21:50:37,293 - INFO - Added 3 files to processing queue.
+2022-09-05 21:50:37,293 - INFO - Added 8 files to error queue.
+2022-09-05 21:50:37,293 - INFO - Moved 1 files from processing queue to error queue.
+2022-09-05 21:50:37,293 - INFO - Removed 6 non .xlsx files from error queue.
+2022-09-05 21:50:37,295 - INFO - Moved incorrectly named file to error_files: C:\Users\kirby\Documents\Computer Science\Smoothstack\Week 1 Evaluation Assignment\expedia_report_monthly_a_2018a.xlsx
+2022-09-05 21:50:37,296 - INFO - Moved incorrectly named file to error_files: C:\Users\kirby\Documents\Computer Science\Smoothstack\Week 1 Evaluation Assignment\expedia_report_monthly_march_a.xlsx
+2022-09-05 21:50:37,297 - INFO - Moved incorrectly named file to error_files: C:\Users\kirby\Documents\Computer Science\Smoothstack\Week 1 Evaluation Assignment\expedia_report_monthly_a_2018.xlsx
+2022-09-05 21:50:37,403 - INFO - Created empty file: expedia_report_monthly_january_2018_result.log
+2022-09-05 21:50:37,403 - INFO - Successfully wrote sheet Summary Rolling MoM to file: expedia_report_monthly_january_2018_result.log
+2022-09-05 21:50:37,404 - INFO - Successfully wrote sheet VOC Rolling MoM to file: expedia_report_monthly_january_2018_result.log
+2022-09-05 21:50:37,404 - INFO - Moved successfully processed file to archived_files: C:\Users\kirby\Documents\Computer Science\Smoothstack\Week 1 Evaluation Assignment\expedia_report_monthly_january_2018.xlsx
+2022-09-05 21:50:37,404 - INFO - Successfully added file to processed file log: expedia_report_monthly_january_2018.xlsx
+2022-09-05 21:50:37,489 - INFO - Created empty file: expedia_report_monthly_march_2018_result.log
+2022-09-05 21:50:37,489 - INFO - Successfully wrote sheet Summary Rolling MoM to file: expedia_report_monthly_march_2018_result.log
+2022-09-05 21:50:37,489 - INFO - Successfully wrote sheet VOC Rolling MoM to file: expedia_report_monthly_march_2018_result.log
+2022-09-05 21:50:37,490 - INFO - Moved successfully processed file to archived_files: C:\Users\kirby\Documents\Computer Science\Smoothstack\Week 1 Evaluation Assignment\expedia_report_monthly_march_2018.xlsx
+2022-09-05 21:50:37,490 - INFO - Successfully added file to processed file log: expedia_report_monthly_march_2018.xlsx
+2022-09-05 21:50:37,490 - INFO - 2 files were processed.
+2022-09-05 21:50:37,490 - INFO - Program exited normally.
+2022-09-05 21:51:06,427 - INFO - Program Started
+2022-09-05 21:51:06,924 - INFO - Directory to search is set to: C:\Users\kirby\Documents\Computer Science\Smoothstack\Week 1 Evaluation Assignment
+2022-09-05 21:51:07,413 - INFO - Added 3 files to processing queue.
+2022-09-05 21:51:07,413 - INFO - Added 10 files to error queue.
+2022-09-05 21:51:07,413 - INFO - Moved 1 files from processing queue to error queue.
+2022-09-05 21:51:07,415 - INFO - Removed 8 non .xlsx files from error queue.
+2022-09-05 21:51:07,415 - INFO - Removed 3 files from processing queue that are in the error_files directory.
+2022-09-05 21:51:07,416 - INFO - Moved already processed file to archived_files: C:\Users\kirby\Documents\Computer Science\Smoothstack\Week 1 Evaluation Assignment\expedia_report_monthly_march_2018.xlsx
+2022-09-05 21:51:07,417 - INFO - Moved already processed file to archived_files: C:\Users\kirby\Documents\Computer Science\Smoothstack\Week 1 Evaluation Assignment\expedia_report_monthly_january_2018.xlsx
+2022-09-05 21:51:07,417 - INFO - No files available to process.
+2022-09-05 21:51:07,417 - INFO - Program exited normally.

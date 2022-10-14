@@ -1,0 +1,55 @@
+
+=============================WEEK 1 : Assignment ===========================================
+
+1. Please import csv (or) openpyxl & Logging packages for this problem.
+2. The program should take any filename as per the format mentioned as input.
+3. Input month value from the file name where  eg :january(expedia_report_monthly_january_2018.xlsx)
+4. Based on the month and year input values value print the values in logfile using logger
+
+This is from the first tab :
+
+Eg for January :
+
+Calls Offered: 16,915
+Abandon after 30s : 2.32%
+FCR : 86.50%
+DSAT :  14.20%
+CSAT : 78.30%
+
+Similarly go to "VOC Rolling MoM" tab
+
+Grab all the values related to Jan-18 and print.
+
+In Net Promoter Score : Promoters > 200 : good Promoters <200 : bad
+			Passives > 100 : good Passives <100 : bad
+			Decractors > 100 : good Decrators <100 : bad
+
+
+
+Below are the Requirements :
+
+*)The Program should search a directory and accept the files.(Input (or) Rawinput methods should be be used to accept file names)
+
+*)There can be more than one file that can be accepted.
+
+ expedia_report_monthly_january_2018.xlsx
+ expedia_report_monthly_march_2018.xlsx
+
+A file list[file.lst] should be created which keeps track of all the filenames which have been processed.
+
+**)Files which are processed once should not be processed again. There should be a check for all of the files .
+
+**)Files once processed in the main directory should be moved to the archive directory once they are successfully processed.
+
+***)Error checks on the file :
+        i) Incase if the file name does not match the needed format it needs to be moved to the Error folder with some log message in the log file.
+        ii) If any of the the spreadsheet tabs is missing, then the file is invalid and should be moved to the Error folder.
+
+
+          
+       
+
+
+
+
+

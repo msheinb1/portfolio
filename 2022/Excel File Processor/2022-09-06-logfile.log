@@ -1,0 +1,24 @@
+2022-09-06 14:26:37,404 - INFO - Program Started
+2022-09-06 14:26:37,997 - INFO - Directory to search is set to: C:\Users\kirby\Documents\Computer Science\Smoothstack\Week 1 Evaluation Assignment
+2022-09-06 14:26:38,710 - INFO - Added 4 files to processing queue.
+2022-09-06 14:26:38,710 - INFO - Added 12 files to error queue.
+2022-09-06 14:26:38,710 - INFO - Moved 1 files from processing queue to error queue.
+2022-09-06 14:26:38,711 - INFO - Removed 10 non .xlsx files from error queue.
+2022-09-06 14:26:38,711 - INFO - Removed 3 files from processing queue that are in the error_files directory.
+2022-09-06 14:26:38,854 - ERROR - File already exists, will try to append to file instead: 
+2022-09-06 14:26:38,855 - INFO - Successfully wrote sheet Summary Rolling MoM to file: expedia_report_monthly_february_2018_result.log
+2022-09-06 14:26:38,855 - ERROR - Error locating data on sheet VOC Rolling MoM. Skipping.
+
+2022-09-06 14:26:38,856 - INFO - Moved incorrectly formatted file to error_files: C:\Users\kirby\Documents\Computer Science\Smoothstack\Week 1 Evaluation Assignment\expedia_report_monthly_february_2018.xlsx
+2022-09-06 14:26:38,947 - ERROR - File already exists, will try to append to file instead: 
+2022-09-06 14:26:38,948 - INFO - Successfully wrote sheet Summary Rolling MoM to file: expedia_report_monthly_january_2018_result.log
+2022-09-06 14:26:38,948 - INFO - Successfully wrote sheet VOC Rolling MoM to file: expedia_report_monthly_january_2018_result.log
+2022-09-06 14:26:38,948 - INFO - Moved successfully processed file to archived_files: C:\Users\kirby\Documents\Computer Science\Smoothstack\Week 1 Evaluation Assignment\expedia_report_monthly_january_2018.xlsx
+2022-09-06 14:26:38,949 - INFO - Successfully added file to processed file log: expedia_report_monthly_january_2018.xlsx
+2022-09-06 14:26:39,022 - ERROR - File already exists, will try to append to file instead: 
+2022-09-06 14:26:39,023 - INFO - Successfully wrote sheet Summary Rolling MoM to file: expedia_report_monthly_march_2018_result.log
+2022-09-06 14:26:39,023 - INFO - Successfully wrote sheet VOC Rolling MoM to file: expedia_report_monthly_march_2018_result.log
+2022-09-06 14:26:39,024 - INFO - Moved successfully processed file to archived_files: C:\Users\kirby\Documents\Computer Science\Smoothstack\Week 1 Evaluation Assignment\expedia_report_monthly_march_2018.xlsx
+2022-09-06 14:26:39,024 - INFO - Successfully added file to processed file log: expedia_report_monthly_march_2018.xlsx
+2022-09-06 14:26:39,024 - INFO - 2 files were processed.
+2022-09-06 14:26:39,024 - INFO - Program exited normally.
