@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+<title>Create Post</title>
+
+{% block content %}
+    <h1>Create Post</h1>
+    {% if name %}
+        <form action = '/create' method="post">
+            <label for="title">Title</label>
+            <br>
+            <input type="text" name="title"
+                   placeholder="Message title"
+                   value="{{ request.form['title'] }}"></input>
+            <br>
+    
+            <label for="content">Post Content</label>
+            <br>
+            <textarea name="content"
+                      placeholder="Message content"
+                      rows="15"
+                      cols="60"
+                      >{{ request.form['content'] }}</textarea>
+            <br>
+            <button type="submit">Submit</button>
+        </form>    
+    {% else %}
+        Please log in to create a post!
+        <p><a href ="/login"><button>Login</button></a></p>
+    {% endif %}
+    
+    <p><a href ="/"><button>Return to Main</button></a></p>
+{% endblock %}

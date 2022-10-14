@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+<title>About</title>
+
+{% block content %}
+    <h1>About</h1>
+        Click on one of the users posted below to see all of their posts!
+    <hr>
+    <h1>List of Users</h1>
+    {% for user in users %}
+        <a href="{{ url_for('show_posts', username=user['username']) }}">{{ user['username'] }}</a>
+            {% if name == 'admin' %}
+            | {{ user['email'] }}
+            {% endif%}
+        <br>
+    {% endfor %}
+{% endblock %}

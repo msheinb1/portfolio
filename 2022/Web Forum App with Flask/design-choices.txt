@@ -1,0 +1,23 @@
+Will adapt flask-assignment-03 for this.
+
+Decided not to use WTForms even though it has form validation because I could not get WTForms to work.
+Decided to not use SQLAlchemy to practice writing SQL statements with their syntax.
+I should have probably used xfail more.
+
+To do List:
+.py and templates
+[✓] Link to individual blogs: maybe just /<username>/home for the entire list of blog posts by user?
+[-] Clicking on indiviual posts from user blogs is a possible feature but that is a very low priority goal
+[✓] Register page: adds new user to registered users database
+    - Might not be needed
+[✓] Edit and delete post: if logged in user matches post author, enables edit and delete options.
+[✓] Add login/logout to nav bar.
+[✓] Add register to nav bar.
+[-] Unsure if willing to allow admins to edit/delete all posts right now. It makes intuitive sense but I don't know if that will take more time than I have
+
+database
+#keep posts database.
+#add second database to keep track of all users
+    [✓] - Wound up making a new database with combined users + posts tables
+[✓] in initdb.py have the FIRST entry added to be the admin.
+[✓] link author entry in posts table to user entry in users table

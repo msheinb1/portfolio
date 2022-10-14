@@ -1,0 +1,19 @@
+DROP TABLE IF EXISTS posts;
+DROP TABLE IF EXISTS users;
+
+CREATE TABLE users (
+    username TEXT NOT NULL PRIMARY KEY,
+    email TEXT NOT NULL UNIQUE,
+    user_pass TEXT NOT NULL
+);
+
+CREATE TABLE posts (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    created TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    title TEXT NOT NULL,
+    author TEXT NOT NULL,
+    content TEXT NOT NULL,
+
+    CONSTRAINT author
+    FOREIGN KEY (author) REFERENCES users(username)
+);
